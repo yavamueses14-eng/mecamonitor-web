@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Monitoreo Mecatrónico</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.2.0/css/adminlte.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="hold-transition login-page">
+<div class="login-box">
+  <div class="login-logo">
+    <b><i class="fas fa-industry text-primary"></i> Meca</b>Monitor
+    <p class="text-muted" style="font-size:13px;">Sistema de Monitoreo Industrial</p>
+  </div>
+  <div class="card">
+    <div class="card-body login-card-body">
+      <p class="login-box-msg">Inicia sesión para acceder al sistema</p>
+      <div id="error-msg" class="alert alert-danger d-none"></div>
+      <div class="input-group mb-3">
+        <input type="email" id="email" class="form-control" placeholder="Correo electrónico">
+        <div class="input-group-append">
+          <div class="input-group-text"><span class="fas fa-envelope"></span></div>
+        </div>
+      </div>
+      <div class="input-group mb-3">
+        <input type="password" id="password" class="form-control" placeholder="Contraseña">
+        <div class="input-group-append">
+          <div class="input-group-text"><span class="fas fa-lock"></span></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <button id="btn-login" class="btn btn-primary btn-block">
+            <i class="fas fa-sign-in-alt"></i> Ingresar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/login.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+/* Estilos personalizados MecaMonitor */
+.login-page {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+.login-box .card {
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+
+.login-logo {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.small-box {
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.small-box:hover {
+  transform: translateY(-4px);
+}
+
+.card {
+  border-radius: 10px;
+}
+
+#eficiencia-valor {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.table thead th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.navbar-primary {
+  background: linear-gradient(90deg, #001f5b, #0f3460) !important;
+}
